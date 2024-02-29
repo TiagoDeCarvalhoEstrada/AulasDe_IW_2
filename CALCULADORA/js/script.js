@@ -1,0 +1,1 @@
+var resulçtado = document.getElementById('resultado')
