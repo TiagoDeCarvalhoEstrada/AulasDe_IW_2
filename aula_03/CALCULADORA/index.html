@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CALCULADORA DO Titigas</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="calc">
+    <h2>Digite um número:</h2>
+    <input id="num1" type="text" value="" type="number">
+    <h2>Digite outro número:</h2>
+    <input id="num2" type="text" value="" type="number">
+    </div>
+    <div class="botoes">
+    <h1>ESCOLHA UMA DAS OPERAÇÕES:</h1>
+    <button id="ope1" onclick="opera1()">somar</button>
+    <button id="ope2" onclick="opera2()">subtrair</button>
+    <button id="ope3" onclick="opera3()">multiplicar</button>
+    <button id="ope4" onclick="opera4()">dividir</button>
+    <button id="LIMPAR" onclick="limpar()">LIMPAR</button>
+    </div>
+    <div class="result">
+        <h1>O resultado é: <span id='resultado'>O</span></h1>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

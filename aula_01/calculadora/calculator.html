@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>EXIBE OPERAÇÕES ENTRE DOIS NÚMEROS</h1>
+    <script>
+        var num1 = parseInt(prompt('Digite o primeiro número'))
+        var num2 = parseInt(prompt('Digite o segundo número'))
+
+        alert('O primeiro número é:'+ num1) 
+        alert('O segundo número é:'+ num2) 
+
+        soma = num1 +num2
+        sub = num1 - num2
+        mult = num1 * num2
+        div = num1 / num2
+
+        // MOSTRANDO NA TELA DO NAVEGADOR (JANELA ==> DOCUMENT)  
+        document.writeln('<p>o primeiro número é ' + num1 + '</p>')
+        document.writeln('</p>o segundo número é ' + num2 + '</p>')
+        document.write('<br>')
+
+        // INTERPOLAÇÃO
+
+    document.write(` Num1 = ${num1} e Num2 = ${num2} `)
+    document.write('<br>')
+    document.write(` A soma de  ${num1} com ${num2} é ${soma} <br>`)
+    document.write(` A subtração de ${num1} com ${num2} é ${sub} <br>`)
+    document.write(` A multiplicação de  ${num1} com ${num2} é ${mult} <br>`)
+    document.write(` A divisão de  ${num1} com ${num2} é ${divisao} <br>`)
+
+
+      //  alert('A soma dos dois números é:' +soma) 
+      //  alert('A subtração dos dois números é:' +sub) 
+      //  alert('A multiplicação dos dois números é:' +mult) 
+      //  alert('A divisão dos dois números é:' +div) 
+
+    </script>
+</body>
+</html>
