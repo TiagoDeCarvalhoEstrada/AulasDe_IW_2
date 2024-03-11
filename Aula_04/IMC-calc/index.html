@@ -8,28 +8,36 @@
     <title>Calculadora de IMC (indice de massa corporal)</title>
 </head>
 <body>
-    <h1>calculadora de IMC (indice de massa corporal)</h1>
+    <div class="linha">
+    <div class="col-6">
+    <h1>Calculadora de IMC (índice de massa corporal)</h1>
     <div class="inp">
-    <p>Indique sua altura</p>
-    <input id="num1" type="text" value="" type="number">
-     <p>indique seu peso:</p>
-    <input id="num2" type="text" value="" type="number">
-    <p>indique seu sexo:</p>
+    <p>Indique a altura:</p>
+    <input id="alt" type="text" value="" type="float">
+     <p>indique o peso:</p>
+    <input id="pes" type="text" value="" type="float">
+    <p>indique o sexo:</p>
     <select id="sx" type="text">
         <option value="masc">Masculino</option>
         <option value="femi">Feminino</option>
     </select>
+    <p>
+    <button id="calc" onclick="calc()">CALCULAR</button>
+    </p>
     </div>
-    <button id="calc" onclick="opera()">CALCULAR</button>
+
     <div class="result">
         <h1>RESULTADOS</h1>
-        <p>Seu IMC é de: <span id="resultado">O</span> </p>
+        <p>Seu IMC é de: <span id="result">0</span> </p>
         <h1>DIAGNÓSTICO</h1>
-        <p>Você está <span id="diagnostico">O</span></p>
-    </div>  
+        <p>Você está: <span id="diagnostico">0</span></p>
+    </div>
+    </div>
+    <div class="col-6">
+        <img class="imagem" src="img/fortao.png" alt="">
+    </div>
+    </div>
 
-
-
-    
+<script src="js/script.js"></script>
 </body>
 </html>
