@@ -6,3 +6,7 @@ https://tiagodecarvalhoestrada.github.io/AulasDe_IW_2/aula_03/CALCULADORA/index.
 
 Aula 04
 https://tiagodecarvalhoestrada.github.io/AulasDe_IW_2/Aula_04/IMC-calc/index.html
+
+Aula 05
+https://tiagodecarvalhoestrada.github.io/AulasDe_IW_2/Aula_05/Exercicio01/index.html
+
