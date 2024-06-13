@@ -17,8 +17,16 @@ const Sequelize = require('sequelize')
 
     // Rotas
     app.get('/cadastro',function(req,res){
-        res.send('ROTA DE CADASTRO DE POSTS')
+        // res.send('ROTA DE CADASTRO DE POSTS')
+        res.render('formulario')
+    
     })
+
+    app.post('/add',function(req,res){
+        res.send('FORMULARIO RECEBIDO!')
+    })
+
+
 
 
 
